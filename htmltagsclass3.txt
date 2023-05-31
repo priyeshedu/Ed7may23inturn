@@ -1,0 +1,92 @@
+<!--					<!-- Start of a comment in html. Comments do not get computed. They're just helpful notes within your code. 
+						Usually just a few words are suggested, but can be as big as desired. --> 
+-->					<!-- '-->' is end of a comment. A comment must end. -->
+
+<!DOCTYPE html> 			<!-- html is the scaleton of a web page, all other components wrap around this -->
+
+<html>				<!-- html start>
+ 
+<html lang="">			<!-- specifies language used-->
+
+<head>				<!-- Intro -->
+ 
+ <meta>				<!-- meta: information(data) about (data) information. i.e. information about this webpage (doesnt get displayed, just 								background 	information) -->
+
+					<!-- Some tags need 'attribute="" '.Sometimes more than one.e.g.http-equiv="",content="" or for image: width="", height="" -->
+
+ <meta charset="">		<!-- Will accept compatible set of charaters according to utf-8 settings -->
+
+ <meta http-equiv=""		<!-- default compabilities>
+  	 content=""			<!-- setting compatibility for a few version of browsers such as edge,
+                                   	otherwise different browsers will adept it to their rendering -->
+
+ <meta name="viewport"		<!-- viewport is 'background' screen wall. -->
+	content="width/scale"	<!-- content set to auto adjust to users device -->
+
+ <title>				<!-- Title name for identifying the webpage to show on the tab. Similer to file folders in a filing cabinet -->
+
+</head>				<!-- Closing tags have / before its name. head part ends. Remember to close your non self-closing tags -->
+
+<body>				<!-- Body begins. Everything <body> within the </body> rendered and displayed by the browser as a web page --> 
+				
+					<!-- Note that html 5 is forgiving of minor errors, it does not mean that it is working fine, so the ignorance is bad karma, 							code clean -->
+        				
+ <header>				<!-- Very to part of the web page. image, video, headline, links, buttons, etc. Note the difference between head and 								header -->
+
+ <center>				<!-- to center justify, similer to in word documents. If not set, everything is left justified effectively. -->
+					<!-- apparently 'center' tag is old ways -->
+ 
+ <h1> 				<!-- Heading. h1 largest. h6 smallest. Size selection normally depends on the relavency and importace of the topic. 
+						Note the difference between header, head and heading -->
+					<!-- Size can be further changed with css, js, etc. -->
+ 
+ <a href="">			<!-- Ancher tag for hyperlink reference to:"" , is usually a file path to file, url, img, mailto: etc. -->
+	target=""			<!-- is target= if set to "_blank", the link will open its content in a new tab, if not the same tab.
+						if there is no link to come back to the original page, will need to hit browser 'back' button. -->
+
+ </a>					<!-- again, tags close with / as prefix -->
+
+ <hr/>					<!-- Horizontal Line -->
+ 
+ <div>				<!-- Starts a division from here on, to keep relevent information together in the same space area 
+						(a divisive block, blocks all lines from left to right until </div> division ends -->
+					
+ <p>					<!-- Paragraph Tag. For multiple words and lines. Note that paragraph tag has a default standard size for its text, which 
+						can be changed. Code tidy and arranged. Use tabs or spacings to identify child from parent to its parent to its parent. 						There are no limits to child of child of child. e.g. <div><center><h1></h1></center></div>. 
+						Many a times your web page will look as intended but by carefully checking your code you may find many mishaps!!!. 
+						These gone un-noticed code will not help fix problems later on because things may appear normal where they're NOT. 
+						After you have learned enough basics, hunt for newer and better way to code.
+						You may not be able to comment inside a tag. 
+						The more you experiment, like a scientist's lab, the more you learn.
+						html recognizes one space only, two or more space are ignored. -->
+
+ <img />				<!-- tag for image is one of many self closing tags, however you still need '/'>
+
+ <img src="">			<!-- image need a src="" attribute which is source. Image needs to be pulled from its source local file, url, etc. 
+						width="" and height="" some of are many attributes used as required. If your img or video is in the same folder 
+						as your html code then you anly need the file name with .extension, otherwise file path, url, etc -->
+
+ <figure>				<!-- figure can be parent of image tag and caption tag <figcaption> -->
+
+ <figcaption>			<!-- is used to give a caption to an image, outside of e.g. an image. <figure><img /><figcaption></figcaption></figure> -->
+
+ <iframe>				<!-- is used for having video. If fetching from url, copy to iframe src="".
+						can also copy embedded code of the video to the image tag.
+						embedded code will have all basic require attributes for a video. -->
+	
+ <video>				<!-- tag for videos -- >
+
+ <video controls>			<!-- by adding controls attribute, the browser adds controls to the video -->
+	
+ &copy				<!-- for copyright emblem. c inside a circle. -->
+
+ <footer>
+
+
+
+
+
+
+		 					
+	
+  

@@ -1,0 +1,7 @@
+<h1 style="background-color:; <!-- h1 from html can be customized with css as such -->
+ 	text-align; color: "
+	
+<img alt="description"	>	<!-- alternative description must be given to be displayed just in case if the source content e.g. image fails to load -->
+
+
+

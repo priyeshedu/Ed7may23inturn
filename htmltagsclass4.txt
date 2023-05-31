@@ -1,0 +1,52 @@
+<a href="" download>	<!-- download attribute will let the user download the content of or the file href"within" >
+					<a href="filename.xtn" download> Click to download </a>. 'Click to download with an underline is rendered on the webpage -->
+
+<ol>				<!-- Ordered List. Allows to create a list by number. -->
+
+<ul>				<!-- Unordered List. Allows to create a list without numbers but has disc bullet points as default -->
+
+<li>				<!-- Each item of list is then individual child of <ol>,<ul>, etc.
+					<ol><li>Plate</li><li>Bowl</li><li>Spoon></li><ol> -->
+
+<ul type"">			<!-- With type attribute you can specify the list type e.g. shapes, upper/lower case letters, roman numerals etc -->
+
+<dl>				<!-- Description/Definition List. displays elements in definition form like in dictionary -->
+
+<dt>				<!-- Definition Title. Used as title/heading Child of <dl>. Left justified in the browser -->
+
+<dd>				<!-- Definition Data. Sibling of <dt> but not title/heading. 
+					Similar to <li>list but, has nothing as prefix to the list like in ordered/unordered lists -->
+
+				<!-- Can have as many <dt> and <dd> within a single parent <dl>. The more you experiment like in a lab, the more you learn -->
+
+<details>			<!-- Details, for collapsing and expanding finer details.
+					
+				<!-- Shows a Solid Arrow head shape (left justified) pointing towards right, before <summary>Description</summary> 
+					The Arrow flips down upon clicking as the details below are expanded or say revealed. And back again -->	
+
+<summary>			<!-- The title/heading for which the detail is about. Strongly Suggested to use summary.
+					Not recommended to use <p>, <h1-6>, etc unless required per design, because it doesnt work right --> 
+
+				<!-- Details can be nested within details. Usually not done, unless requirement and design -->				
+	
+<h1 
+style="background-color:; <!-- h1 from html can be customized with css as such -->
+ 	text-align; color: "
+	
+<img alt="description"	><!-- alternative description must be given to be displayed just in case if the source content e.g. image fails to load -->
+
+<p> + css			<!-- You can do so many variations of text and background -->
+				<!-- Checkout Inline styling -->
+
+<style>			<!-- Internal Styling, by defining an object {} -->
+
+				<!-- External Styling --> ( follow class4 1:46:00 onwards)
+
+<pre>				<!-- Pre tag, browser renders and displays it on the web page in the same way as set in code. Does not auto adjust text -->
+
+
+
+
+
+
+

@@ -1,0 +1,139 @@
+<!DOCTYPE html> <!-- html is the scaleton of a web page, all other components wrap around this -->
+<html lang="en"> <!-- specifies language used-->
+<head> <!-- meta: information about information. i.e. information about this webpage (doesnt get displayed, just background information) -->
+  <meta charset="UTF-8"> <!-- Will accept compatible set of charaters according to utf-8 settings -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- setting compatibility for a few version of browsers such as edge,
+                                                         otherwise different browsers will adept it to their rendering -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- viewport is e.g. screen base. 
+                                                                         content set as auto adjust to device dimensions -->
+  <title>Document</title> <!-- Title name for identifying the webpage to show on the tab. Similer to file folders in a filing cabinet -->
+</head> <!-- head part ends -->
+<body> <!-- body begins -->
+        <!-- pls note that html 5 is forgiving of minor errors, it does not mean that it is working fine and ignorance is bad karma, code clean -->
+        <!-- remember to close your tags -->
+<header> <!-- very top part of the webpage. Note the difference between head and header -->
+  <center> <!-- to centre justify similar to in word documents. if not done by default everything starts from the left margin -->
+    <h1>About Cities</h1> <!-- Heading tag 1 of 6, for heading a topic. 1 being the largest size set by default. Can be changed with css, js, etc
+                          the size used normally depends on the relavent importace of the topic. Note the diff between Head, Header and Heading -->
+    <a href="http://www.isro.gov.in" target="_blank"> AnyDescription </a> <!-- h yperlink ref erence, 
+                                                                target= target to open it in new tab if specified as "_blank", _blank (new),
+                                                                  or if not attributed, open in the same tab -->
+    <a href="http://www.facebook.com"> Facebook </a> 
+    <a href="htmltags.txt"> HTML Tags </a> <!-- if inside the same (edinternmay23) folder just need the filename with extn -->
+    <a href="words.txt"> Tech Words </a>
+    <a href="mailto:"> Email </a><!-- opens compose mail window in your default email without recepient details, if default email set e.g. outlook -->
+    <a href="mailto:yotomsg@gmail.com"> Gmail </a>  <!-- opens with yotomsg@gmail.com in 'to:' address bar -->
+  </center>
+</header>  
+<hr />  <!-- horizontal line -->
+<!-- About Bangalore City -->
+<!-- For making a comment 'Ctrl+?' auto generates '<! --' and '-- >' Comments within code are igored by the code computing software. -->
+<div> <!-- division holds a block of exclusive space between start and end of divion for your on topic master piece -->
+  <center> <h1> Bangalore </h1> </center> <!-- suggested syntax -->
+  <h3> <center> Bangalore </center> </h3> <!-- works the same as above but not suggested way. 
+                                        Always following the normal convention and concistancy helps your fellows to code, and fix bugs with you -->
+  <h5> Not following the norm <center> Bangalore </center> My Karma </h5> <!-- this method is ugly unless necessary. It doesnt help page look tidy -->
+    <center> <!-- red color because its a tag from previous versions of html -->
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLsznOq-26ZZ_usbB6aLApeoeOsrKUcB04fQ&usqp=CAU"
+        width="400" height="200"
+  /> <!-- note that the image tag is closed here, after all the atributes of the image to make them inclusive. try closing before the attributes -->
+  <p> <!-- paragraph tag allows you to post multiple lines together as a paragraph, without line spaces. -->
+    <!-- this <p>content</p> is not centered like the heading so by default it is left justified -->
+Bengaluru (also called Bangalore) is the capital of India's southern Karnataka state. The center of India's high-tech industry, 
+the city is also known for its parks and nightlife. By Cubbon Park, Vidhana Soudha is a Neo-Dravidian legislative building. 
+Former royal residences include 19th-century Bangalore Palace, modeled after England’s Windsor Castle, and Tipu Sultan’s Summer Palace, 
+an 18th-century teak structure. ― Google
+</p> <!-- Keep opening and closing child tags inside of its parent tag. Can have as many child of child tags as needed. 
+      Use consistant tab spacing and placing practices for tidy code. Helps read the code better and fix the bugs too -->
+</center> <!-- I was not able to comment within a self closing tag -->
+</div>
+<div>
+  <center>
+    <a href="https://en.wikipedia.org/wiki/Bangalore" target="_blank"> About Bangalore wikipedia link <br> 
+      <!-- <br> tag breaks the line, remove <br> tag and check. -->
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVw8kr79C21JNX6YXymxFjCQBLMgV-CfPH6Q&usqp=CAU"
+      /> <!-- the text 'About Bangalore wikipedia link' 
+          and the image links are both links to the wikipedia page because they are both linked within the same anchor tag.
+          you can have both or either of these depending on design requirements of the website. Just remember to keep consistency --> 
+    </a>
+  </center>
+</div>
+<P> Bangaluru is the original name </P> <!-- p,h,hr, are a few examples of many block element tags
+                                        and so will occupy the whole width of line from left to right as a block
+                                        additional lines with or without tags will have to start in a new line -->
+<!-- <img /> and <a> tags are examples of inline element tags. Inline elements only take required space and can be in the same line
+      with other inline tags. Try removing <center> tags from the <a><img /> tags above.
+      <div> which is a block element tag which will occupy space as a sinle block until the tag is closed--> 
+<div>
+  <center>  <h1> Mumbai </h1> 
+    <img src="https://www.telegraph.co.uk/content/dam/Travel/Destinations/Asia/India/Mumbai/gateway-of-india-mumbai.jpg" 
+            width="400" height="200"
+    /><br/>
+    <a href="https://en.wikipedia.org/wiki/Mumbai" target="_blank">
+      About Mumbai wikipedia link 
+    </a>
+      <p>Mumbai (English: /mʊmˈbaɪ/ (listen), Marathi: [ˈmumbəi]; also known as Bombay /bɒmˈbeɪ/— the official name until 1995) 
+        is the capital city of the Indian state of Maharashtra. Mumbai is the de facto financial centre and the most populous city of India
+        with an estimated city proper population of 12.5 million (1.25 crore).[17] Mumbai is the centre of the Mumbai Metropolitan Region, 
+        the sixth most populous metropolitan area in the world with a population of over 23 million (2.3 crore) living under the 
+        Brihanmumbai Municipal Corporation.[18] Mumbai lies on the Konkan coast on the west coast of India and has a deep natural harbour. 
+        In 2008, Mumbai was named an alpha world city.[19][20] 
+      </p>
+    </center>
+<p> Mumbai was named Bombay by the outsiders </p>
+  </div>
+<div>
+  <center>  <h1>  Delhi </h1>
+    <figure> <!-- First, we put image inside a figure -->
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3X4ivZHgFtNFTJpE06a_GETRF08vmFsiNFw&usqp=CAU"
+            width="400" height="200"
+      />
+        <figcaption> <!-- Second, give figcaption anything after the image to act as its caption, will be child of figure, 
+                    note the caption in now closer to the image above since the caption belongs to the figure.
+                    A caption is supposed to be a few words, not a paragraph -->
+          <a href="https://en.wikipedia.org/wiki/Delhi" target="_blank"> About Delhi Link to Wikipedia
+          </a>
+        </figcaption>
+    </figure>
+    <p> Delhi[a], officially the National Capital Territory (NCT) of Delhi, is a city and a union territory of India 
+    containing New Delhi, the capital of India. Straddling the Yamuna river, primarily its western or right bank, Delhi shares borders with 
+    the state of Uttar Pradesh in the east and with the state of Haryana in the remaining directions. The NCT covers an area of 1,484 square 
+    kilometres (573 sq mi).[4] According to the 2011 census, Delhi's city proper population was over 11 million,[5][14] while the NCT's 
+    population was about 16.8 million.[6] Delhi's urban agglomeration, which includes the satellite cities Ghaziabad, Faridabad, Gurgaon and Noida 
+    in an area known as the National Capital Region (NCR), has an estimated population of over 28 million, making it the largest metropolitan 
+    area in India and the second-largest in the world (after Tokyo).[7]
+    </p>
+  </center>
+    <p> Tour Delhi </p>
+    <!-- video -->
+  <center>  <iframe width="400" height="200" src="https://www.youtube.com/embed/_2-GTLcy65M" title="Original Vande Mataram (AnandMatha)" 
+          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen>
+    </iframe>
+  </center>
+</div>
+<hr/>
+<center>
+<video width="400" height="300" controls>
+  <source src="video1.mp4" />
+</video>
+</center>
+<hr/>
+
+  <footer>
+    <center>
+      <h2>
+        &copy;
+        <a href="#nowhere">Copyright</a>
+      </h2>
+    </center>
+
+  </footer>
+        <h1> Hello All </h1> 
+ <h2> Hello All </h2>
+ <h3> Hello All </h3>
+ <h4> Hello All </h4>
+ <h5> Hello All </h5>
+ <h6> Hello All </h6>
+</body> <!-- / end of body -->
+</html> <!-- / end of html -->
